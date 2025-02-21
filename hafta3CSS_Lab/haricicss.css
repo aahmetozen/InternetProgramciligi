@@ -1,0 +1,32 @@
+
+.block-deneme{
+    display: block; 
+    width: 300px;
+    background-color: rgb(46, 46, 133);
+    padding: 20px;
+    margin-left: 40px;
+}
+.inline-deneme{
+    display: inline; 
+    background-color: rgb(46, 133, 68);
+    margin: 25px;
+    padding: 2px;
+}
+button{
+    display: inline-block;
+    width: 130px;
+    height: 50px;
+    background-color: rgb(46, 84, 133);
+    color: wheat;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background: red
+}
+

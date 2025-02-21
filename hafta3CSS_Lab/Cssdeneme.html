@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Calışması</title>
+    <link rel="stylesheet" href="haricicss.css">
+    <!--Dahili CSS-->
+    <style>
+        h1{
+            color: brown;
+             font-weight: bold;
+              font-size: large;
+               margin-left: 30px;
+        }
+        div > p{
+            color: rgb(30, 236, 236);
+        }
+        
+        div > p::first-letter {
+            font-weight:bolder ;
+            font-size: larger;
+            font-style:initial;
+        }
+    </style>
+</head>
+<body style="overflow: auto; height: 200vh;">
+    
+    <h1 class="inline-deneme" style="position: fixed; ">Merhaba bu sayfamda css kullanıyorum</h1>
+    <!--Inline CSS-->
+    <div><p style= "color:chocolate; font-style: italic; font-weight: lighter; font-size: larger; margin-left: 25px;">Bu yazıda inline css kullanıldı</p></div>
+    <br>
+
+    <!--öğeyi tam genişlikte blok olarak gösterir. varsayılan olarak alt alta sıralanır. Genişlik ve yükseklik ayarlanabilir-->
+    <div class="block-deneme">
+        bu bir block örneğidir
+    </div>
+    <div class="block-deneme">
+        Ikinci blok denme
+    </div> <br><br>
+
+    <div>
+        <p>bu paragraf mavi renkte</p>
+        <section><p>bu paragraf mavi renkte değil</p></section>
+    </div> <br><br>
+    <!--Öğeyi satır içi yapar. Genişlik ve yükseklik ayarlanmaz ve yalnızca içerik kadar yer kaplar-->
+    <p class="inline-deneme">bu bir satır içi eklenmiş paragraf</p> <br><br><br>
+
+    <!--satır gibi davranır ama yükseklik ve genişlik ayarlanabilir-->
+    <button>Buton 1</button>
+    <button style="margin-left: 12px;">Buton 2</button> <br><br><br>
+
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    
+</body>
+</html>
