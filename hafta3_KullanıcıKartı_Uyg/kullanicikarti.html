@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kullanici Karti</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center; /* Yatayda ortalar */
+            align-items: center; /* Dikeyde ortalar */
+            height: 100vh; /* Ekran yüksekliği kadar yapar */
+            background-color: rgb(212, 209, 209);
+            margin: 0; /* Sayfa boşluklarını kaldır */
+        }
+        .blockDisplay {
+            display: block;
+            background-color: whitesmoke;
+            border: 2px solid gray;
+            width: 350px;
+            height: 280px;
+            border-radius: 18px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            padding: 5px;
+        }
+        .blockDisplay:hover {
+            background-color: rgb(241, 245, 183);
+        }
+        button {
+            width: 100px;
+            height: 30px;
+            background-color: blue;
+            color: white;
+            font-size: small;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: darkblue;
+        }
+            img {
+                width: 60px;
+                height: 60px;
+                margin-top: 10px;
+                border-radius: 4%;
+            }
+    </style>
+</head>
+<body>
+
+    <div class="blockDisplay">
+        <img src="projeresim1.jpg" alt="Profil Resmi">
+        <h1 style="font-size: x-large;">Ahmet Ozen</h1>
+        <p style="font-style: italic; font-weight: bold; color: brown;">İnönü Üniversitesi</p>
+        <p style="font-style: italic; font-weight: bold; color: brown;">Bilgisayar Mühendisliği</p>
+        <p style="font-family: 'Courier New', Courier, monospace; font-weight: bold; color: green;">Android Developer</p>
+        <button>Daha Fazla</button>
+    </div>
+    
+</body>
+</html>
